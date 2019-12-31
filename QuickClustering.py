@@ -90,7 +90,7 @@ def find_best_cluster_n(data, data_labels, n_clusters):# find the best k value b
 # In[5]:
 
 
-data=read_data('dim6.txt')# read data
+data=read_data('filename.txt')# read data supports .txt, .csv and .xlsx
 classes_exist=False #If the data does already have classes, like in the IRIS dataset, then this must be True
 
 
